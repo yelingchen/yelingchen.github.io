@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/yelingchen.github.io/', // 设置基路径
+  base: '/',  // 设置为你的仓库名称
   plugins: [
     vue(),
   ],
